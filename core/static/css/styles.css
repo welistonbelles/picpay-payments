@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #f1eeee;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-height: 200px;
+    max-width: 200px;
+    align-items: center;
+}
+
+
+form, .pedido {
+    width: 320px;
+    max-width: 90%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+}
+
+form input[type='text'],
+form button {
+    margin-top: 5px;
+    width: 100%;
+}
+
+form a {
+    color: #21c25e;
+    text-decoration: underline;
+}
+
+table {
+    width: 500px;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.yellow {
+    color: yellow
+}
+
+.green {
+    color: rgb(0, 255, 0)
+}
+
+.orange {
+    color: orange
+}
